@@ -1,0 +1,154 @@
+
+/* background Color */
+.container-fluid {
+  background-color:#b9d2d2;
+}
+
+/* Hiding button */
+.hiddenbtn {
+    color: transparent;
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+}
+/* ********************** NAVBAR START ********************** */
+.navbar {
+  overflow: hidden;
+  background-color: #26282b;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.primarynavigationbar {
+  z-index: 10;
+}
+
+.secondarynavigationbar {
+  margin-top: 70px;
+  z-index: 9;
+  background-color:#26282b;
+  color: #dddddd;
+  position: relative;
+}
+
+.secondarynavigationbar p {
+  margin: 0 0;
+}
+
+.secondarynavigationbarbtn1 {
+  position: absolute;
+  right:10px;
+  top:7px;
+  padding:0 8px 4px;
+}
+.secondarynavigationbarbtn2 {
+  position: absolute;
+    top:7px;
+  right:50px;
+  padding:0 8px 4px;
+}
+.secondarynavigationbarbtn3 {
+  position: absolute;
+    top:7px;
+  right:90px;
+  padding:0 8px 4px;
+}
+
+/* ********************** NAVBAR END ********************** */
+/* ********************** SECTION START ********************** */
+.mainsection {
+  position: relative;
+  z-index: 8
+}
+/* ********************** SECTION END ********************** */
+/* ********************** CARD SYLE BEGINS ********************** */
+.card {
+  background-color: #63686e;
+  border-radius: 10px;
+  padding:10px;
+  height: 500px;
+  margin: 10px 5px;
+}
+
+.cardhead {
+  height: 50px;
+  padding-bottom: 10px;
+  color:#005086;
+  display: inline;
+}
+
+.cardheadpara {
+  border-radius: 4px;
+  font-size: 1.2em;
+  margin-left:50px;
+  display: inline-block;
+  width:80%;
+  }
+
+
+.cardheadpara a {
+height: 30px;
+margin-bottom: 10px;
+text-overflow: ellipsis;
+overflow: hidden;
+display: block;
+height: 30;
+border: solid;
+border-radius: 4px;
+border-color: #b9d2d2;
+border-width: thin;
+width: 100%;
+padding: 2px;
+color:#b9d2d2
+}
+
+.cardheadpara a:hover {
+overflow: visible;
+}
+
+
+.cardbtn {
+  position: absolute;
+  width: 25px;
+}
+
+.cardbtn .btn {
+  border-color:#b9d2d2;
+}
+
+.cardElement {
+  padding-left:0;
+  line-height: 1.6em;
+  margin-left: 10px;
+  color:black;
+}
+
+.cardElement a {
+  color:#3c3c4b;
+}
+
+.cardelembtn {
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 6px;
+padding-left: 6px;
+}
+
+/* ********************** CARD STYLE ENDS ********************** */

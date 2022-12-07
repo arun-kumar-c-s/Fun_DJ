@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'CarumbaHotCapsPlain';
+    src: url('CarumbaHotCapsPlain.eot');
+    src: url('CarumbaHotCapsPlain.eot?#iefix') format('embedded-opentype'),
+        url('CarumbaHotCapsPlain.woff2') format('woff2'),
+        url('CarumbaHotCapsPlain.woff') format('woff'),
+        url('CarumbaHotCapsPlain.ttf') format('truetype'),
+        url('CarumbaHotCapsPlain.svg#CarumbaHotCapsPlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Digital Woodcuts Black ITC TT';
+    src: url('DigitalWoodcutsBlackITCTT.eot');
+    src: url('DigitalWoodcutsBlackITCTT.eot?#iefix') format('embedded-opentype'),
+        url('DigitalWoodcutsBlackITCTT.woff2') format('woff2'),
+        url('DigitalWoodcutsBlackITCTT.woff') format('woff'),
+        url('DigitalWoodcutsBlackITCTT.ttf') format('truetype'),
+        url('DigitalWoodcutsBlackITCTT.svg#DigitalWoodcutsBlackITCTT') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

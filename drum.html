@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🎤FUN DJ🎸</title>
+  <link rel="stylesheet" href="drum.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+</head>
+
+<body>
+  <div class="container-fluid bghigh" style="padding:0;">
+  <video autoplay muted loop id="bgvideo">
+  <source src="image/bg/body.mp4" type="video/mp4">
+  </video>
+    <div class="header">
+      <h1 style="font-size:4rem;">YEAH! YEAH! LET'S GO!!</h1>
+    </div>
+
+    <div class="sets">
+      <div class="set0">
+        <input id="tbtn1" class="z1 repeatbutton" type="button" value="1🎤" onClick="toggleplay(1)">
+        <input id="tbtn2" class="z2 repeatbutton" type="button" value="2🎸" onClick="toggleplay(2)">
+        <input id="tbtn3" class="z3 repeatbutton" type="button" value="3📯" onClick="toggleplay(3)">
+        <input id="tbtn4" class="z4 repeatbutton" type="button" value="4🎺" onClick="toggleplay(4)">
+        <input id="tbtn5" class="z5 repeatbutton" type="button" value="5🎹" onClick="toggleplay(5)">
+        <input id="tbtn6" class="z6 repeatbutton" type="button" value="6🎧" onClick="toggleplay(6)">
+        <input id="tbtn7" class="z7 repeatbutton" type="button" value="7🎼" onClick="toggleplay(7)">
+        <input id="tbtn8" class="z8 repeatbutton" type="button" value="8🎶" onClick="toggleplay(8)">
+        <input id="tbtn9" class="z9 repeatbutton" type="button" value="9🎵" onClick="toggleplay(9)">
+        <input id="tbtn10" class="z10 repeatbutton" type="button" value="0🎷" onClick="toggleplay(10)">
+
+        <audio id="audio1" src="sound/loop/track1.wav"></audio>
+        <audio id="audio2" src="sound/loop/track2.wav"></audio>
+        <audio id="audio3" src="sound/loop/track3.wav"></audio>
+        <audio id="audio4" src="sound/loop/track4.wav"></audio>
+        <audio id="audio5" src="sound/loop/track5.wav"></audio>
+        <audio id="audio6" src="sound/loop/track6.wav"></audio>
+        <audio id="audio7" src="sound/loop/track7.wav"></audio>
+        <audio id="audio8" src="sound/loop/track8.wav"></audio>
+        <audio id="audio9" src="sound/loop/track9.wav"></audio>
+        <audio id="audio10" src="sound/loop/track0.wav"></audio>
+      </div>
+
+      <div class="set1">
+
+        <button class="q btnproperty" type="button" name="button">q</button>
+        <button class="w btnproperty" type="button" name="button">w</button>
+        <button class="e btnproperty" type="button" name="button">e</button>
+        <button class="r btnproperty" type="button" name="button">r</button>
+        <button class="t btnproperty" type="button" name="button">t</button>
+        <br>
+
+
+        <button class="a btnproperty" type="button" name="button">a</button>
+        <button class="s btnproperty" type="button" name="button">s</button>
+        <button class="d btnproperty" type="button" name="button">d</button>
+        <button class="f btnproperty" type="button" name="button">f</button>
+        <button class="g btnproperty" type="button" name="button">g</button>
+        <br>
+
+
+        <button class="z btnproperty" type="button" name="button">z</button>
+        <button class="x btnproperty" type="button" name="button">x</button>
+        <button class="c btnproperty" type="button" name="button">c</button>
+        <button class="v btnproperty" type="button" name="button">v</button>
+        <button class="b btnproperty" type="button" name="button">b</button>
+
+      </div>
+
+
+      <div class="set2">
+
+        <button class="y btnproperty" type="button" name="button">y</button>
+        <button class="u btnproperty" type="button" name="button">u</button>
+        <button class="i btnproperty" type="button" name="button">i</button>
+        <button class="o btnproperty" type="button" name="button">o</button>
+        <button class="p btnproperty" type="button" name="button">p</button>
+        <br>
+
+
+        <button class="h btnproperty" type="button" name="button">h</button>
+        <button class="j btnproperty" type="button" name="button">j</button>
+        <button class="k btnproperty" type="button" name="button">k</button>
+        <button class="l btnproperty" type="button" name="button">l</button>
+        <button class="semicoln btnproperty" type="button" name="button">;</button>
+        <br>
+
+
+        <button class="n btnproperty" type="button" name="button">n</button>
+        <button class="m btnproperty" type="button" name="button">m</button>
+        <button class="comma btnproperty" type="button" name="button">,</button>
+        <button class="fullstop btnproperty" type="button" name="button">.</button>
+        <button class="forwslash btnproperty" type="button" name="button">/</button>
+
+
+    </div>
+
+  </div>
+</div>
+<!-- container fluid close -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="drum.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
